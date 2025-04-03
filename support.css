@@ -1,0 +1,164 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav-parent
+{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    height: 100px;
+    width: 100%;
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+}
+.nav-parent .title p
+{
+    color: white;
+    padding: 10px 10px;
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: 35px;
+    text-transform: uppercase;
+    font-family: "Nova Square", sans-serif;
+}
+.nav-parent .title p a
+{
+    text-decoration: none;
+    color: white;
+}
+.nav-parent nav ul
+{
+    display: flex;
+    padding: 25px 20px;
+    margin-top: 15px;
+}
+.nav-parent nav ul li
+{
+    color: white;
+    list-style: none;
+    margin-right: 20px;
+    font-family: "Quicksand", sans-serif;
+}
+.nav-parent nav ul li a
+{
+    color: rgb(255, 255, 255);
+    padding: 15px 15px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.nav-parent nav ul li a:hover
+{
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    border: none;
+}
+#img1:hover,#img2:hover
+{
+    background-color: black;
+}
+.nav-parent nav li a img
+{
+    margin-top: -10px;
+}
+.support-img img
+{
+    width: 100%;
+    margin-top: 100px;
+}
+.title3
+{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
+.title3 h3
+{
+    font-size: 40px;
+    font-family: "Ubuntu", sans-serif;
+}
+.title3 p
+{
+    padding-top: 30px;
+    font-size: 25px;
+    font-family: "Nova Square", sans-serif;    
+}
+.contact
+{
+    border: 1px solid white;
+    width: 300px;
+    height: 250px;
+    /* border-color: gray; */
+    border-radius: 5px;
+}
+.contact:hover
+{
+    box-shadow: 1px 1px 3px 3px gray;
+}
+.contact .icon-img
+{
+    margin-left:95px;
+    margin-top: 30px;
+    padding: 10px;
+}
+.contact .contact-detail
+{
+    text-align: center;
+}
+.contact .contact-detail h3, p
+{
+    padding-top: 10px;
+}
+.contact-detail p
+{
+    font-family: "Quicksand", sans-serif;
+}
+.contact-detail span p
+{
+    color: blue;
+    font-weight: 700;
+}
+.contact-container
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    row-gap: 20px;
+}
+.rights
+{
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 50px;
+    width: 100%;
+    margin-top: 50px;
+}
+
+@media(max-width:768px)
+{
+    .nav-parent 
+    {
+        display: block;
+        height: 500px;
+    }
+    .nav-parent nav ul
+    {
+        display: block;
+    }
+    .nav-parent nav ul li
+    {
+        padding-top: 20px;
+    }
+    .support-img
+    {
+        /* width: 500px; */
+        margin-top: 420px;
+    }
+}

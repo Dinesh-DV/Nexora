@@ -1,0 +1,174 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav-parent
+{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    height: 100px;
+    width: 100%;
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+}
+.nav-parent .title p
+{
+    color: white;
+    padding: 10px 10px;
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: 35px;
+    text-transform: uppercase;
+    font-family: "Nova Square", sans-serif;
+}
+.nav-parent .title p a
+{
+    text-decoration: none;
+    color: white;
+}
+.nav-parent nav ul
+{
+    display: flex;
+    padding: 25px 20px;
+    margin-top: 15px;
+}
+.nav-parent nav ul li
+{
+    color: white;
+    list-style: none;
+    margin-right: 20px;
+    font-family: "Quicksand", sans-serif;
+}
+.nav-parent nav ul li a
+{
+    color: rgb(255, 255, 255);
+    padding: 15px 15px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.nav-parent nav ul li a:hover
+{
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    border: none;
+}
+#img1:hover,#img2:hover
+{
+    background-color: black;
+}
+.nav-parent nav li a img
+{
+    margin-top: -10px;
+}
+.title1
+{
+    margin-top: 150px;
+    height: 10vh;
+}
+.title1 h3
+{
+    text-align: center;
+    font-family: "Kanit", sans-serif;
+    font-size: 20px;
+}
+.product
+{
+    border: 1px solid white;
+    width: 500px;
+    /* background-color: black; */
+    height: 550px;
+    /* margin-left: 20px; */
+}
+.product-list img
+{
+    width: 500px;
+}
+.product-list
+{
+    margin: 10px auto;
+    /* margin-left: 20px; */
+}
+.price
+{
+    text-align: left;
+    width: 100%;
+}
+.price span p
+{
+    font-size: 25px;
+    font-weight: 900;
+    padding-bottom: 10px;
+}
+.price p
+{
+    padding-top: 10px;
+    font-size: 20px;
+}
+.product-container
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.footer-parent
+{
+    display: flex;
+    justify-content: space-around;
+    /* margin-top: 20px; */
+    background-color: black;
+    height: 50vh;
+    width: 100%;
+}
+.foot1
+{
+    margin-top: 50px;
+    color: white;
+    font-family: "Nova Square", sans-serif;
+    text-transform: uppercase;
+}
+.foot2
+{
+    display: flex;
+    justify-content: space-between;
+    /* color: white; */
+    margin-right: 90px;
+}
+.foot2 .foot21
+{
+    padding-left: 160px;
+    margin-top: 50px;
+    color: white;
+    font-size: 19px;
+    font-family: "Ubuntu", sans-serif;
+}
+.foot21 p
+{
+    margin-left: 10px;
+}
+.foot21 a
+{
+    display: block;
+    padding: 10px 10px 10px 10px;
+    margin-top: 10px;
+    text-decoration: none;
+    border-radius: 10px;
+    color: gray;
+}
+.foot21 a:hover
+{
+    /* background-color: white; */
+    color: green;
+}
+.rights
+{
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 50px;
+    width: 100%;
+}

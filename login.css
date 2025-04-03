@@ -1,0 +1,86 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+form
+{
+    border: 1px solid white;
+    width: 500px;
+    height: 70vh;
+    margin: 60px auto;
+}
+form img
+{
+    margin-left: 220px;
+    width: 70px;
+}
+form h3
+{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 30px;
+    font-family: "Kanit", sans-serif;
+}
+form input
+{
+    padding: 10px 90px 10px 5px;
+    margin-top: 30px;
+    margin-left: 100px;
+    font-size: 15px;
+}
+form .forgot
+{
+    margin-left: 300px;
+    margin-top: -34px;
+    font-size: 17px;
+}
+form .forgot a
+{
+    text-decoration: none;
+    color: black;
+    font-family: "Quicksand", sans-serif;
+}
+form button
+{
+    margin-left: 130px;
+    margin-top: 40px;
+    padding: 10px 90px 10px 90px;
+    border-radius: 5px;
+    border: none;
+    background-color: black;
+}
+form button a
+{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+form input[type=checkbox]
+{
+    margin-left: 70px;
+}
+label p
+{
+    margin-left: 90px;
+    margin-top: -21px;
+    font-size: 19px;
+}
+.newuser
+{
+    margin-left: 280px;
+    margin-top: -21px;
+    font-size: 19px;
+    font-family: "Ubuntu", sans-serif;
+
+}
+.newuser a
+{
+    text-decoration: none;
+}
+.remember p
+{
+    font-family: "Ubuntu", sans-serif;
+}

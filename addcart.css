@@ -1,0 +1,299 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav-parent
+{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    height: 100px;
+    width: 100%;
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+}
+.nav-parent .title p
+{
+    color: white;
+    padding: 10px 10px;
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: 35px;
+    text-transform: uppercase;
+    font-family: "Nova Square", sans-serif;
+}
+.nav-parent .title p a
+{
+    text-decoration: none;
+    color: white;
+}
+.nav-parent nav ul
+{
+    display: flex;
+    padding: 25px 20px;
+    margin-top: 15px;
+}
+.nav-parent nav ul li
+{
+    color: white;
+    list-style: none;
+    margin-right: 20px;
+    font-family: "Quicksand", sans-serif;
+}
+.nav-parent nav ul li a
+{
+    color: rgb(255, 255, 255);
+    padding: 15px 15px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.nav-parent nav ul li a:hover
+{
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    border: none;
+}
+#img1:hover,#img2:hover
+{
+    background-color: black;
+}
+.nav-parent nav li a img
+{
+    margin-top: -10px;
+}
+.total
+{
+    margin-top: 100px;
+    height: 40vh;
+    background-color: rgb(241, 249, 255);
+    text-align: center;
+    padding-top: 30px;
+    width: 100%;
+}
+.total:hover, .product-price:hover
+{
+    background-color: rgb(131, 129, 129);
+    color: white;
+    transition: all 1s ease-in-out;
+}
+
+.total p
+{
+    padding: 50px;
+    font-size: 30px;
+    font-family: "Quicksand", sans-serif;
+}
+.total a
+{
+    border: 1px solid black;
+    padding: 15px 25px;
+    color: black;
+    background-color: white;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 10px;
+}
+.product-price
+{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(241, 249, 255);
+    padding: 40px;
+    width: 100%;
+    margin-top: 30px;
+}
+.pr h3, .quantity h3, .price h3
+{
+    padding: 20px 10px;
+    font-size: 25px;
+    font-family: "Kanit", sans-serif;
+}
+.pr img
+{
+    margin-left: -20px;
+    width: 150px;
+}
+
+.pr p
+{
+    width: 170px;
+    text-align: left;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: "Ubuntu", sans-serif;
+}
+.quantity p
+{
+    margin-top: 50px;
+    border: 1px solid;
+    padding: 10px 30px 10px 30px;
+    border-radius: 5px;
+}
+.price p
+{
+    margin-top: 30px;
+    padding-bottom: 20px;
+    font-size: 20px;
+    font-family: "Nova Square", sans-serif;
+}
+.price img
+{
+    margin-left: 20px;
+    width: 40px;
+}
+.subtotal
+{
+    /* border: 1px solid; */
+    text-align: right;
+    /* background-color: gray; */
+    padding-top: 30px;
+    /* padding-right: 200px; */
+    width: 650px;
+    margin-top: 30px;
+    /* display: flex; */
+    font-size: 25px;
+    margin-left: 600px;
+}
+.sub1 span, .sub2 span, .sub3 span
+{
+    padding: 50px;
+    font-family: "Quicksand", sans-serif;
+
+}
+.sub1, .sub2, .sub3
+{
+    padding-bottom: 30px;
+}
+.sub3
+{
+    margin-top: 30px;
+}
+.subtotal button
+{
+    margin-right: 60px;
+    padding: 15px 80px;
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    font-size: 18px;
+    border-radius: 5px;
+}
+.subtotal button:hover, .total a:hover
+{
+    background-color: black;
+    color: white;
+    transition: all 1s ease-in-out;
+    
+}
+.footer-parent
+{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    background-color: black;
+    height: 50vh;
+    width: 100%;
+}
+.foot1
+{
+    margin-top: 50px;
+    color: white;
+    font-family: "Nova Square", sans-serif;
+    text-transform: uppercase;
+}
+.foot2
+{
+    display: flex;
+    justify-content: space-between;
+    /* color: white; */
+    margin-right: 90px;
+}
+.foot2 .foot21
+{
+    padding-left: 160px;
+    margin-top: 50px;
+    color: white;
+    font-size: 19px;
+    font-family: "Ubuntu", sans-serif;
+}
+.foot21 p
+{
+    margin-left: 10px;
+}
+.foot21 a
+{
+    display: block;
+    padding: 10px 10px 10px 10px;
+    margin-top: 10px;
+    text-decoration: none;
+    border-radius: 10px;
+    color: gray;
+}
+.foot21 a:hover
+{
+    /* background-color: white; */
+    color: green;
+}
+.rights
+{
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 50px;
+    width: 100%;
+}
+@media(max-width:768px)
+{
+    .nav-parent 
+    {
+        display: block;
+        height: 500px;
+    }
+    .nav-parent nav ul
+    {
+        display: block;
+    }
+    .nav-parent nav ul li
+    {
+        padding-top: 20px;
+    }
+    .product-price
+    {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: space-evenly;
+        column-gap: 40px;
+    }
+    .subtotal
+    {
+        margin-left: 0;
+        margin-right: 100px;
+        width: 100%;
+    }
+    .footer-parent
+    {
+        display: flex;
+        flex-wrap: wrap;
+        height: 100vh;
+        /* margin-left: 100px; */
+        justify-content: center;
+    }
+    .foot2
+    {
+        display: flex;
+        flex-wrap: wrap;
+        /* margin-top: -400px; */
+        /* padding-left: 100px; */
+        text-align: center;
+    }
+    .foot2 .foot21 a
+    {
+        text-align: left;
+    }
+   
+}
